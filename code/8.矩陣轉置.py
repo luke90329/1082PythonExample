@@ -1,6 +1,6 @@
 for i in range(eval(input())):
     a, b = map(int,input().split())
-    s = [[0]*3 for i in range(2)]
+    s = [[0]*a for i in range(b)]
     for j in range(a):
         l = input().split()
         for z in range(b):
