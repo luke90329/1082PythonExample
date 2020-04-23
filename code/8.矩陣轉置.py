@@ -6,6 +6,10 @@ for i in range(eval(input())):
         for z in range(b):
             s[z][j] = l[z]
     for i in s:
+        count = 0
         for j in i:
-            print(j,end=' ')
-        print()
+            count += 1
+            if count < a:
+                print(j,end=' ')
+            else:
+                print(j)
